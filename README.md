@@ -6,25 +6,25 @@ Navega al directorio del proyecto
 Instala las dependencias:
 
 -bash-
-npm install
-# o
-yarn install
+### npm install
+o
+### yarn install
 
 Dependencias Principales
-# React
-# React Router Dom
-# Axios
+## React
+## React Router Dom
+## Axios
 
 Ejecución
 Para iniciar la aplicación en modo desarrollo:
 -bash-
-npm start
-# o
-yarn start
+### npm start
+o
+### yarn start
 
-La aplicación se abrirá automáticamente en http://localhost:3000
+## La aplicación se abrirá automáticamente en http://localhost:3000
 
-Estructura del Proyecto
+## Estructura del Proyecto
 src/
 ├── pages/
 │   ├── Botones.jsx    # Página principal con navegación
@@ -37,8 +37,7 @@ src/
 ├── index.js           # Punto de entrada
 └── index.css          # Estilos globales
 
-Puntos importantes sobre la API
-
+## Puntos importantes sobre la API
 Para peticiones POST a /api/users se requiere un header personalizado:
 Header: x-api-key
 Valor: reqres-free-v1
